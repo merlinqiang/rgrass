@@ -33,7 +33,6 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
     <meta content="" name="description" />
 
     <meta content="" name="author" />
-
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
     {{HTML::style('Admin/css/bootstrap.min.css')}}
     {{HTML::style('Admin/css/bootstrap-responsive.min.css')}}
@@ -112,7 +111,7 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 <!-- BEGIN SIDEBAR MENU -->
 
 <ul class="page-sidebar-menu">
-<li class="start active ">
+<li class="starting active">
 
     <a href="/rgrassAdmin/IndexCenter">
 
@@ -126,7 +125,7 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 
 </li>
 
-<li class="">
+<li class="starting">
 
     <a href="/rgrassAdmin/UserInfo">
 
@@ -138,7 +137,7 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 
     </a>
 </li>
-    <li class="">
+    <li class="starting">
 
         <a href="/rgrassAdmin/BookLists">
 
@@ -150,9 +149,9 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 
         </a>
     </li>
-    <li class="">
+    <li class="starting">
 
-        <a href="/rgrassAdmin/TypeManager">
+        <a href="/rgrassAdmin/BookTypeManager">
 
             <i class="icon-tags"></i>
 
@@ -162,7 +161,7 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 
         </a>
     </li>
-    <li class="">
+    <li class="starting">
 
         <a href="/rgrassAdmin/LogManager">
 
@@ -174,13 +173,25 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 
         </a>
     </li>
-    <li class="">
+    <li class="starting">
 
         <a href="/rgrassAdmin/FriendsLink">
 
-            <i class="icon-cogs"></i>
+            <i class="icon-male"></i>
 
             <span class="title">友情链接</span>
+
+            <span class="arrow "></span>
+
+        </a>
+    </li>
+    <li class="starting">
+
+        <a href="/rgrassAdmin/MessageManager">
+
+            <i class="icon-sign-blank"></i>
+
+            <span class="title">留言管理</span>
 
             <span class="arrow "></span>
 
@@ -403,8 +414,6 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 </div>
 
 <!-- END FOOTER -->
-
-
 
 
 

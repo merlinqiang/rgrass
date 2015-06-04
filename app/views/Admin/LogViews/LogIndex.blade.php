@@ -44,7 +44,7 @@
     </ul>
 </div>
 <div id="log_content"><br>
-    <span>目前拥有用户数量:</span><span>{{$count_users}}}}</span><br>
+    <span>目前拥有用户数量:</span><span>{{$count_users}}</span><br>
     <span>当前作品数量:</span><span></span><br>
     <span>目前拥有作者数量:</span><span></span><br>
 

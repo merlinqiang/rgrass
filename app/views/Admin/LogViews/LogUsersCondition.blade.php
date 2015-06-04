@@ -46,7 +46,10 @@
             <span>输入转换的IP(可以查询该IP所对应的地址)</span><br>
             <input class="form-control" type="text" name="ip"/><input type="submit" class="btn-info"/>
         </form>
-    </div>
+    </div><br>
+    <p>
+        已经过滤掉的IP：{{$ip_filter}}
+    </p>
     <br/>
 <table class="table table-hover">
     <tr>
