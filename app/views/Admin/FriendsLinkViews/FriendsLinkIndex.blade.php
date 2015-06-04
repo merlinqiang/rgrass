@@ -40,19 +40,23 @@
 @section('content')
     <a href="AddNewOrModifyOneUser?page_type=create" class="btn blue">添加</a>
     <br/><br/>
-    <table class="table .table-hover">
-        <tr>
+    <table class="table table-hover text-center table-responsive">
+        <tr class="text-center">
             <th>链接ID</th>
             <th>链接名称</th>
             <th>链接URL</th>
             <th>链接Logo</th>
+            <th>链接状态</th>
+            <th>操作</th>
         </tr>
         @foreach($links as $link)
-        <tr>
+        <tr class="text-center">
             <td>{{$link->link_id}}</td>
             <td>{{$link->link_name}}</td>
             <td>{{$link->link_address}}</td>
             <td>{{$link->link_logo}}</td>
+            <td>{{$link->link_status}}</td>
+            <td><button class="btn-info">修改</button><button class="btn-danger">删除</button></td>
         </tr>
         @endforeach
     </table>

@@ -18,7 +18,17 @@ Class Admin_FriendsLinkController extends BaseController{
 /*展示友情链接*/
     public function showFriendsLink(){
         $links = $this->friends_link->getFriendsLinksAll();
-        return View::make('Admin.FriendsLinkIndex')->with($links);
+        return View::make('Admin.FriendsLinkViews.FriendsLinkIndex')->with(array(
+            'links'=>$links));
+    }
+/*增加或修改*/
+    public function amFriendsLink(){
+        View::make('Admin.FriendsLinkViews.adFriendsLink');
+    }
+
+/*删除友情链接*/
+    public function delFriendsLink(){
+
     }
 
 
