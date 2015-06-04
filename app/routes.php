@@ -37,6 +37,7 @@ Route::get('/rgrassAdmin/FriendsLink','Admin_FriendsLinkController@showFriendsLi
 
 
 
+
 //前台
 Route::get('/','Home_IndexController@showIndex');
 Route::get('/login','Home_LoginController@showLogin');
